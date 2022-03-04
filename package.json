@@ -1,0 +1,11 @@
+{
+  "name": "diploi-nextjs-strapi-template-example",
+  "version": "1.0.0",
+  "description": "This package.json is used for top level helper commands that execute commands in both api & www directories.",
+  "scripts": {
+    "install": "(cd api && npm i); (cd www && npm i);",
+    "clean": "(cd api && npm run clean); (cd www && npm run clean);"
+  },
+  "author": "Diploi",
+  "license": "ISC"
+}
